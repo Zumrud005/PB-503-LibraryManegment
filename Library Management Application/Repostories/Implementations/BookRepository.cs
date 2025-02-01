@@ -1,0 +1,15 @@
+﻿using Library_Management_Application.Data;
+using Library_Management_Application.Models;
+using Library_Management_Application.Repostories.Interfaces;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Library_Management_Application.Repostories.Implementations
+{
+    public class BookRepository : GenericRepository<Book>, IBookRepository
+    {
+    }
+}

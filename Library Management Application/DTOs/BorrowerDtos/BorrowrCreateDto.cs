@@ -10,6 +10,6 @@ namespace Library_Management_Application.DTOs.BorrowerDtos
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public string Email { get; set; }0
+        public string Email { get; set; }
     }
 }

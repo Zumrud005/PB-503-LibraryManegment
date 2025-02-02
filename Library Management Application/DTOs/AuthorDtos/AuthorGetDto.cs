@@ -10,5 +10,6 @@ namespace Library_Management_Application.DTOs.AuthorDtos
     {
         public int Id { get; set; }
         public string Name { get; set; }
+        public List<string> BookTitles { get; set; }
     }
 }

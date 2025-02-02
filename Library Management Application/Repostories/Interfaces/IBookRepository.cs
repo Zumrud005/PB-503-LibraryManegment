@@ -9,6 +9,8 @@ namespace Library_Management_Application.Repostories.Interfaces
 {
     public interface IBookRepository :IGenericRepository<Book>
     {
+        Book IGetById(int id);
+        List<Book> IGetAll();
     }
         
 

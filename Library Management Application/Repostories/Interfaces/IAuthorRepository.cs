@@ -9,5 +9,7 @@ namespace Library_Management_Application.Repostories.Interfaces
 {
     public interface IAuthorRepository :IGenericRepository<Author> 
     {
+        Author IGetById(int id);
+        List<Author> IGetAll();
     }
 }
